@@ -10,6 +10,8 @@ interface AuthUser {
   name: string;
   email: string;
   profilePicture: string;
+  createdAt: string;
+  fullName: string;
 }
 
 interface AuthStore {
